@@ -9,11 +9,7 @@ public class RedditCloneApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(RedditCloneApplication.class, args);
-    }
-
-    @GetMapping
-    public String hello() {
-        return "Hello World!";
+        System.out.println("Welcome to sprinit");
     }
 
 }
